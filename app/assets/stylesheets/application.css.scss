@@ -54,6 +54,18 @@ h1, h2, h3 {
   }
 }
 
+//Adding styles to the toggle hamburger
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+//Also editing the toggle.
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus{
+    background-color: #00c6ff;
+  }
+}
 
 //home page styles
 .home-callout {
